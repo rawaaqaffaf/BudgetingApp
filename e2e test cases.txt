@@ -1,1 +1,1 @@
-In this Folder, 
+This is the root folder for the e2e test framework written for this budgeting App.
