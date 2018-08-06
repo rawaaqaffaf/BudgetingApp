@@ -25,7 +25,6 @@ var element = $('[value="car"]');
    	   browser.click('//*[@id="root"]/main/section/table/tfoot/tr/td/form/div[3]/button');
   });
 
-  
 
 
    
