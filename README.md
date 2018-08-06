@@ -3,9 +3,12 @@ Budgeting App application.
 
 # Description of the Application:
 It’s a web based budgeting app built with Production-ready React + Webpack architecture implemented on consumer web apps of some of the most successful enterprises in the world. Perceived performance and development experience are key factors in this setup. You can use this code base for learning or to scaffold your mission-critical project.
-The is a simple budget management application. It tracks inflow and outflow, shows remaining budget, and interesting reports with charts. As such, it offers more features than the usual Todo App.
-Budgeting app is a showcase project that demonstrates important decisions in architecture and development of a modern React application.
-Feel free to use it as a reference app or a starter kit.
+ A simple budget management application. It tracks inflow and outflow, shows remaining budget, and interesting reports with charts. As such, it offers more features than the usual Todo App.
+ 
+# Description of the testing framework
+I wrote e2e test cases to test this budgeting app https://budget.modus.app/#/budget.
+I first wrote test cases with steps and later automated them.
+Those Test cases are written with JS using webdriverio framework, based on webdriverjs. I wrote the step definitions using cucumber and wrote the test steps in feature files using Gherkin syntax.
 
 # Browser used in testing:
 Chrome browser.
