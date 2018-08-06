@@ -23,7 +23,7 @@ var element = $('[value="car"]');
    
    When(/^I click Add button$/, function() {
    	   browser.click('//*[@id="root"]/main/section/table/tfoot/tr/td/form/div[3]/button');
-  });
+  }); 
 
 
 

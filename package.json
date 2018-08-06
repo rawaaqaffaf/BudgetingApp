@@ -17,6 +17,7 @@
     "standalone": "0.0.1",
     "wdio-chromedriver-service": "^0.1.3",
     "wdio-cucumber-framework": "^2.2.2",
+    "wdio-cucumber-reporter": "0.0.2",
     "wdio-selenium-standalone-service": "0.0.10",
     "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^4.13.1"
