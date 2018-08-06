@@ -10,15 +10,16 @@ Feel free to use it as a reference app or a starter kit.
 # Browser used in testing:
 Chrome browser.
 
-# App features: 
+##  App features: 
 
 This app has 2 basic features:
-1.Budget app feature where you can add your inflow and outflow values in categories, give the categories a description and add it to your list where you can a result of your working balance  calculated by (Total Inflow – Total Outflow) values.
-2.Second feature is the reports : 
+### 1.Budget app feature:
+where you can add your inflow and outflow values in categories, give the categories a description and add it to your list where you can a result of your working balance  calculated by (Total Inflow – Total Outflow) values.
+### 2.Second feature is the reports : 
 Where you can sort out your total Inflow vs your total Outflow.
 Sorting out your spending based on the category.
 
-# Conditions :
+## Conditions :
 1. Try adding a category without assigning a value.
 2. Try to add a category without adding a description.
 3. Try adding a description with special chars, numbers.
@@ -29,10 +30,10 @@ For the Reports feature:
 Check if report value matches the values from the inflow, outflow
 Make sure all category values are added from the table. (Not all of them are shwoing).
 
-# Test Cases:
+## Test Cases:
 Now we will build test cases to check all the scenarios introduced above. 
 
-Test case 1: 
+### Test case 1: 
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
@@ -41,7 +42,7 @@ Test case 1:
 6. Click on the ADD button.
 7. Check if the new item was added successfully.
 
-Test Case 2: 
+### Test Case 2: 
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
@@ -50,7 +51,7 @@ Test Case 2:
 6. Click on the ADD button.
 7. Check if the new item was added successfully.
 
-Test Case 3:
+### Test Case 3:
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
@@ -59,7 +60,7 @@ Test Case 3:
 6. Click on the ADD button.
 7. Check if the new item was added successfully.
 
-Test Case 4:
+### Test Case 4:
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
@@ -68,7 +69,7 @@ Test Case 4:
 6. Click on the ADD button.
 7. Check if the new item was added successfully.
 
-Test Case 5:
+### Test Case 5:
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
@@ -76,7 +77,8 @@ Test Case 5:
 5. Try adding a word in the value box.
 6. Click on the ADD button.
 7. Check if the new item was added successfully.
-Test Case 6:
+
+### Test Case 6:
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category where it’s an inflow.
@@ -85,7 +87,7 @@ Test Case 6:
 6. Click on the ADD button.
 7. Check if the new item was added successfully and the value showing in Green and with a positive value.
 
-Test Case 7: 
+### Test Case 7: 
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category where it’s an Outflow.
@@ -94,20 +96,20 @@ Test Case 7:
 6. Click on the ADD button.
 7. Check if the new item was added successfully and the value showing in Red and with a negative value.
 
-Test case 8: 
+### Test case 8: 
 1. Launching the Budgeting login page URL.
 2. Pick the Budget tab.
 3. From the Values tab, sum all values in red (outflow) and sum all values in green (Inflow) .
 4. Calculate the Working Balance (Total Inflow- Total Outflow) and double if it matches the value in the working balance box.
 
-Test Case 9:
+### Test Case 9:
 1. Launching the Budgeting login page URL.
 2. Click the Reports tab.
 3. Click the Inflow vs outflow tab.
 4. Check if the chart line values for the total Inflow and Total Outflow matches the numbers your added in your budget tab.
 5. 
 
-Test Case 10:
+### Test Case 10:
 1. Launching the Budgeting login page URL.
 2. Click the Reports tab.
 3. Click the Spending by Category tab.
@@ -123,8 +125,8 @@ Test Case 10:
  # How to run the test cases?
  1. Clone the reposotiry to your local machine.
  2. change the directory to your local cloned folder.
- 3.open a command line interface.
- 4.make sure you are on the root directory of the folder cloned.
- 5.run npm run test.
+ 3. open a command line interface.
+ 4. make sure you are on the root directory of the folder cloned.
+ 5. run ``` npm run test```.
  
  All tests will be run for you!
