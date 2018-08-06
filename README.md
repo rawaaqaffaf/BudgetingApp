@@ -115,10 +115,16 @@ Test Case 10:
 5. Check that all categories added in the budget tab, are showing on the pie chart on the Reports tab.
 
 
-
-
 9. close the tab.
 10. Move to the chart tab.
 11.Check of the ammuont added by you is showing in the pie chart
 
  
+ # How to run the test cases?
+ 1. Clone the reposotiry to your local machine.
+ 2. change the directory to your local cloned folder.
+ 3.open a command line interface.
+ 4.make sure you are on the root directory of the folder cloned.
+ 5.run npm run test.
+ 
+ All tests will be run for you!
