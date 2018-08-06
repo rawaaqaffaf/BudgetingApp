@@ -126,10 +126,15 @@ Now we will build test cases to check all the scenarios introduced above.
 
  
  # How to run the test cases?
- 1. Clone the reposotiry to your local machine.
- 2. change the directory to your local cloned folder.
- 3. open a command line interface.
- 4. make sure you are on the root directory of the folder cloned.
- 5. run ``` npm run test```.
+ 1. Clone the reposotiry to your local machine. (folder will be called e2e).
+ 2. Make sure you have Node.js installed on your computer, if not;  install it from here (https://nodejs.org/en/)
+ 3. Start a command line interface at thr root of the directory, that you cloned.
+ 4. Make sure you are on the root directory of the folder cloned, from the command line. 
+ 5. from the command line, run ``` npm install```. I already have all dependencies installed in the node_modules folder.
+ 6. run ``` npm run test```.
+ 
+ #### You will notice that 2 scenarios will be run, The first scenario will implement Test case 1 mentioned above, second scenario will implement Test case 3 above.
+ 
+
  
  All tests will be run for you!
