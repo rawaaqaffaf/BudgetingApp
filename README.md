@@ -10,7 +10,7 @@ Feel free to use it as a reference app or a starter kit.
 # Browser used in testing:
 Chrome browser.
 
-##  App features: 
+# App features: 
 
 This app has 2 basic features:
 ### 1.Budget app feature:
