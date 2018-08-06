@@ -40,7 +40,7 @@ Make sure all category values are added from the table. (Not all of them are shw
 Now we will build test cases to check all the scenarios introduced above. 
 
 ### Test case 1: 
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
 4. Fill a description in the Description text box.
@@ -49,7 +49,7 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully.
 
 ### Test Case 2: 
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
 4. Leave the description text box empty.
@@ -58,16 +58,16 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully.
 
 ### Test Case 3:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
 4. Fill a description in the Description text box.
 5. Leave the value box empty
 6. Click on the ADD button.
-7. Check if the new item was added successfully.
+7. check if the ADD button is enabled.
 
 ### Test Case 4:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
 4. Fill a description in the Description text box with special chars.
@@ -76,7 +76,7 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully.
 
 ### Test Case 5:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category.
 4. Fill a description in the Description text box.
@@ -85,7 +85,7 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully.
 
 ### Test Case 6:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category where it’s an inflow.
 4. Fill a description in the Description text box.
@@ -94,7 +94,7 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully and the value showing in Green and with a positive value.
 
 ### Test Case 7: 
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Category dropdown, select a category where it’s an Outflow.
 4. Fill a description in the Description text box.
@@ -103,30 +103,28 @@ Now we will build test cases to check all the scenarios introduced above.
 7. Check if the new item was added successfully and the value showing in Red and with a negative value.
 
 ### Test case 8: 
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Pick the Budget tab.
 3. From the Values tab, sum all values in red (outflow) and sum all values in green (Inflow) .
 4. Calculate the Working Balance (Total Inflow- Total Outflow) and double if it matches the value in the working balance box.
 
 ### Test Case 9:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Click the Reports tab.
 3. Click the Inflow vs outflow tab.
 4. Check if the chart line values for the total Inflow and Total Outflow matches the numbers your added in your budget tab.
-5. 
 
 ### Test Case 10:
-1. Launching the Budgeting login page URL.
+1. Launching the Budgeting page URL.
 2. Click the Reports tab.
 3. Click the Spending by Category tab.
 4. Check if the pie chart categories values showing matches the numbers your added in your budget tab.
 5. Check that all categories added in the budget tab, are showing on the pie chart on the Reports tab.
 
-
-9. close the tab.
-10. Move to the chart tab.
-11.Check of the ammuont added by you is showing in the pie chart
-
+### Test Case 11:
+1. Launching the Budgeting page URL.
+2. Click on the fork button.
+3. Check if a new tab opens with the link https://github.com/ModusCreateOrg/budgeting/fork
  
  # How to run the test cases?
  1. Clone the reposotiry to your local machine. (folder will be called e2e).
