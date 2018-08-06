@@ -15,7 +15,9 @@ Chrome browser.
 This app has 2 basic features:
 ### 1.Budget app feature:
 where you can add your inflow and outflow values in categories, give the categories a description and add it to your list where you can a result of your working balance  calculated by (Total Inflow – Total Outflow) values.
-https://d.pr/free/i/5rZ1BG 
+
+https://github.com/rawaaqaffaf/BudgetingApp/blob/master/budget.png 
+
 ### 2.Reports app feature : 
 Where you can sort out your total Inflow vs your total Outflow.
 Sorting out your spending based on the category.
